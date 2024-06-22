@@ -88,7 +88,9 @@ async function setupMovieNight() {
 To compile a contract that imports other contracts
 https://github.com/ethereum/solc-js 
 - Install Yarn Package Manager
-- Install sol-js: ```yarn add solc```
+- Install sol-js: ```yarn add solc``` /or ```yarn add solc@0.8.7-fixed```
+- All commands solc allows: ```yarn solcjs help```
+- Compile: ```yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol```
 
 ### ([06:55:12](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=24912s)): Ganache & Networks
 
