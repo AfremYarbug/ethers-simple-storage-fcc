@@ -24,7 +24,7 @@
 
 ([06:34:06](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=23646s)): Tiny Javascript Refresher
 
-([06:38:07](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=23887s)): Asynchronous programming in Javascript
+([06:38:07](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=23887s)): Asynchronous programming in Javascript <<<>>>
 
 ([06:46:16](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=24376s)): Compiling our Solidity
 
