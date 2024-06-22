@@ -1,3 +1,11 @@
+<h3 align="center">Ethers-Simple-Storage</h3>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+<!-- TIMESTAMPS -->
+## Timestamps
+
 ([05:30:42](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=19842s)) Lesson 5: Ethers.js Simple
 
 ([05:30:46](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=19846s)): Effective Debugging Stratetgies & Getting Help
