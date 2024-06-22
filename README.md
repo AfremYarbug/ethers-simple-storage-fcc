@@ -3,6 +3,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+- 
+
 <!-- TIMESTAMPS -->
 ## Timestamps
 
@@ -51,3 +53,12 @@
 ([08:14:19](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=29659s)): Lesson 5 Recap
 
 ([08:17:08](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=29828s)): Optional: Typescript
+
+## Format your solidity code with:
+```json
+    "[solidity]": {
+        "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+    },
+    "[javascript]":{
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
