@@ -103,7 +103,16 @@ Know we can run: ```yarn compile```
 
 ### ([06:55:12](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=24912s)): Ganache & Networks
 
+Deploy to a fake blockchain
+
+Networks
+- RPC URL - connection to a blockchain node
+
 ### ([07:00:10](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=25210s)): Introduction to Ethers.js
+
+- etherjs & web3js same thing
+- install: ```yarn add ethers``` to connect to blockchain
+- install ```yarn add fs-extra``` to read from abi and bin
 
 ### ([07:08:39](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=25719s)): A note on the await keyword
 
