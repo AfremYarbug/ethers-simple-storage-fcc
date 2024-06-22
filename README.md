@@ -91,6 +91,15 @@ https://github.com/ethereum/solc-js
 - Install sol-js: ```yarn add solc``` /or ```yarn add solc@0.8.7-fixed```
 - All commands solc allows: ```yarn solcjs help```
 - Compile: ```yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol```
+- Short Compile Command:
+
+```json
+"scripts": {
+    "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol"
+  }
+```
+Know we can run: ```yarn compile```
+
 
 ### ([06:55:12](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=24912s)): Ganache & Networks
 
