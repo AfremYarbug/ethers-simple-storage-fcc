@@ -85,6 +85,11 @@ async function setupMovieNight() {
 
 ### ([06:46:16](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=24376s)): Compiling our Solidity
 
+To compile a contract that imports other contracts
+https://github.com/ethereum/solc-js 
+- Install Yarn Package Manager
+- Install sol-js: ```yarn add solc```
+
 ### ([06:55:12](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=24912s)): Ganache & Networks
 
 ### ([07:00:10](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=25210s)): Introduction to Ethers.js
