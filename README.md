@@ -158,6 +158,8 @@ What is BigNumber Reponse?
 
 ### ([07:34:09](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=27249s)): Environment Variables
 
+- Command: ``yarn add dotenv``
+
 ### ([07:54:00](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=28440s)): Optional Prettier Formatting
 
 ### ([07:57:52](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=28672s)): Deploying to a Testnet or a Mainnet

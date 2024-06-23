@@ -1,13 +1,14 @@
 const ethers = require("ethers"); 
 const fs = require("fs-extra");
+require("dotenv").config();
 
 async function main() {
     // script to connect to the blockchain
-    const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:7545");
+    const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
 
     // Get Wallet with Private Key & Provider
     // Ganache Private Key
-    const wallet = new ethers.Wallet("0xc55422cbc7cba818400f16b3920e096f6208fe32a1bc6cd0d08bf1ab2c674c31", provider);
+    const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
     // read abi
     const abi = fs.readFileSync("./SimpleStorage_sol_SimpleStorage.abi", "utf8");
