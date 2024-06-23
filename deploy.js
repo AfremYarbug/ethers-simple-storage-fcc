@@ -22,7 +22,11 @@ async function main() {
     // (add different overrides example: gas price or gas limit in the brackets)
     // const contract = await contractFactory.deploy({ gasPrice: 100000000000 });
     const contract = await contractFactory.deploy(); // Wait to deploy
-    console.log(contract);
+    
+    // Wait one block conformation to get attached
+    const transactionReceipt = await contract.deployTransaction.wait(1);
+
+
 }
 
 main()

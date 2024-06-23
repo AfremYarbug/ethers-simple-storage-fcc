@@ -120,6 +120,11 @@ Networks
 
 ### ([07:12:18](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=25938s)): Transaction Receipts
 
+transactionReceipt vs deploymentTransaction
+
+transactionReceipt you only get when you wait 1 block conformation. Otherwise you get the contract object which has the
+deployTransaction (transaction response)
+
 ### ([07:14:56](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=26096s)): Sending a "raw transaction in ethersjs
 
 ### ([07:24:57](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=26697s)): Interacting with Contracts in Ethersjs
