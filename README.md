@@ -162,6 +162,9 @@ What is BigNumber Reponse?
 
 ### ([07:54:00](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=28440s)): Optional Prettier Formatting
 
+- https://github.com/prettier-solidity/prettier-plugin-solidity
+- Command: ``yarn add prettier prettier-plugin-solidity``
+
 ### ([07:57:52](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=28672s)): Deploying to a Testnet or a Mainnet
 
 ### ([08:04:28](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=29068s)): Verifying on Block Explorers (From the UI)
