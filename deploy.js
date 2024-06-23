@@ -10,6 +10,13 @@ async function main() {
     // Ganache Private Key
     const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
+    // Change Way we get the wallet
+    /* const encryptedJson = fs.readFileSync("./.encryptedKey.json", "utf8");
+    let wallet = new ethers.Wallet.fromEncryptedJsonSync(encryptedJson, process.env.PRIVATE_KEY_PASSWORD);
+
+    // connect wallet to provider
+    wallet = await wallet.connect(provider); */
+
     // read abi
     const abi = fs.readFileSync("./SimpleStorage_sol_SimpleStorage.abi", "utf8");
     // read bin
