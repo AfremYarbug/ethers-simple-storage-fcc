@@ -127,7 +127,34 @@ deployTransaction (transaction response)
 
 ### ([07:14:56](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=26096s)): Sending a "raw transaction in ethersjs
 
+```js
+// specify transaction information
+    console.log("Let's deploy only transaction data!")
+
+    // easy way to always get the correct nonce is calling the transactioncount from the wallet
+    const nonce = await wallet.getTransactionCount();
+
+    const tx = {
+        // add transaction information
+        nonce: nonce,
+        gasPrice: 20000000000, // gasPrice from ganache
+        gasLimit: 10000000, 
+        to: null,
+        value: 0,
+        data: "0x...", // binary object
+        chainId: 1337, // networkId
+    }
+
+    // sign transaction and then send it to the blockchain
+    const sendTxResponse = await wallet.sendTransaction(tx);
+    await sendTxResponse.wait(1);
+    console.log(signedTxResponse);
+```
+
 ### ([07:24:57](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=26697s)): Interacting with Contracts in Ethersjs
+
+What is BigNumber Reponse?
+- library that allows operations
 
 ### ([07:34:09](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=27249s)): Environment Variables
 
