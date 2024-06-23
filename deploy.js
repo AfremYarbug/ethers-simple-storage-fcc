@@ -19,6 +19,8 @@ async function main() {
     console.log("Deploying, please wait...");
 
     // deploy contract with ethers
+    // (add different overrides example: gas price or gas limit in the brackets)
+    // const contract = await contractFactory.deploy({ gasPrice: 100000000000 });
     const contract = await contractFactory.deploy(); // Wait to deploy
     console.log(contract);
 }
